@@ -22,7 +22,7 @@ def home():
                 result = get_day_name(day, month, year, calendar)
 
             except ValueError:
-                result = "❌ Please enter numbers only"
+                result = "❌ Please enter valid date only"
 
     return render_template("index.html", result=result)
 
