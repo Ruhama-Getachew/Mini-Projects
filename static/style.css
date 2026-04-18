@@ -1,0 +1,87 @@
+/* Page background */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    background: linear-gradient(rgb(1, 1, 36));
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main container box */
+.container {
+    background: rgb(202, 195, 195);
+    padding: 30px;
+    border-radius: 22px;
+    width: 280px;
+    box-shadow: 20px 25px 30px rgba(213, 204, 228, 0.25);
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+/* Paragraph */
+p {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    line-height: 1.4; 
+}
+
+/* Each input/select/button box */
+.box {
+    margin: 12px 0;
+}
+
+/* Input field */
+input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 13px;
+}
+
+/* Dropdown */
+select {
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: 'Verdana', sans-serif;
+}
+
+/* Button */
+button {
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: #26519c;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background: #362d6b;
+}
+
+/* Result text */
+.result {
+    margin-top: 18px;
+    color: #222;
+    font-weight: bold;
+    font-size: 25px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WhatDay🗓️</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Let’s find your day!</h1>
+    <p>Ever wondered what day your birthday falls on, or any special date?🤔</p>
+
+    <form method="POST">
+
+        <div class="box">
+            <input type="text" name="date" placeholder="dd/mm/yyyy" required>
+        </div>
+
+        <div class="box">
+            <select name="calendar">
+                <option value="G.C.">Gregorian</option>
+                <option value="E.C.">Ethiopian</option>
+            </select>
+        </div>
+
+        <div class="box">
+            <button type="submit">Convert</button>
+        </div>
+
+    </form>
+
+    {% if result %}
+        <h2 class="result">{{ result }}</h2>
+    {% endif %}
+
+</div>
+
+</body>
+</html>
