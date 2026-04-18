@@ -50,7 +50,7 @@ class EthiopianCalendar:
         final_day_list = ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
         for num in range(0, 8):
             if num == required_day_remainder:
-                return f'It is "{final_day_list[num]}".'
+                return f'It is on "{final_day_list[num]}".'
             else:
                 pass
         return None
