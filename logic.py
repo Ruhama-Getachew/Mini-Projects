@@ -97,4 +97,3 @@ class ConvertCalendar:
         e_day = delta_days % 30 + 1
 
         return e_day, e_month, e_year
-
